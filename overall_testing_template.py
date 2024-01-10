@@ -939,7 +939,7 @@ app = dash.Dash(__name__)
 
 # Define the layout of the app
 app.layout = html.Div([
-    html.H1("FRED Data Dashboard"),
+    html.H1("Econ Data Dashboard"),
     dcc.Dropdown(
         id="data-type",
         options=[
